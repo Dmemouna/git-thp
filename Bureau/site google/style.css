@@ -1,0 +1,155 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction:row;
+  padding-top: 10px;
+  padding-left: 17px;
+  padding-right: 25px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6px;
+}
+
+#gmail {
+  background-color:blue;
+  color: white;
+  padding: 8px 15px 8px 15px;
+  font: 13px arial, sans-serif;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 1px solid blue;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+.appli {
+  width: 24px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 160px;
+}
+
+.barreR{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 27px;
+  width: 582px;
+  height: 44px;
+  border: 0.5px solid #dedee3;
+  border-radius: 25px;
+  box-shadow: 0px 6px 5px -4px #dedee3;
+  display: flex;
+  flex-direction:columns;
+}
+
+.texte {
+  width: 427px;
+  height: 30px;
+  border: none;
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: arial;
+  margin-top: 10px;
+}
+
+.texte:focus {
+  outline: none;
+}
+
+
+
+.LesBoutons{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+  
+}
+
+.bout {
+  background-color: #eff0f2;
+  color: #7b7c7c;
+  font: 15px arial, sans-serif;
+  font-weight: bold;
+  padding: 10px 15px 10px 15px;
+  margin: 0px 50px
+  border: .5px solid #eff0f1;
+  border-radius: 2px;
+}
+
+.bout:hover {
+  color: black;
+}
+
+#grech {
+  min-width: 130px;
+}
+
+#chance {
+  min-width: 142px;
+}
+
+.but:hover {
+  background-color: #f4f4f4;
+  color: #2d2d2d;
+}
+
+.btn:hover {
+  border: 1px solid #c7c9cc;
+  border-radius: 2px;
+}
+
+.grech{
+  justify-self: end;
+}
+
+.chance {
+  justify-self: start;
+}
+
+
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.foot a {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  padding: 11px 0 13px 21px;
+  background-color: #eff0f2;
+  font-family: arial, sans-serif;
+  color: #706f6f;
+ 
+}
+
+.foot a:hover {
+  text-decoration: underline;
+}
+
+.foot-blank {
+  background-color: #eff0f2;
+  border-top: 0.5px solid #e0e1e5;
+}
